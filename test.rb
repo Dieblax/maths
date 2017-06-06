@@ -1,2 +1,9 @@
-f = File.open('test.txt', 'w+')
-f.write('Some stuff')
+count = 0
+
+def add(*count)
+	count = 23
+end
+
+add(count)
+
+p count.inspect
